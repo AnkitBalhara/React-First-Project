@@ -1,38 +1,58 @@
-.App {
-  text-align: center;
+body{
+    background-image: url('https://images.unsplash.com/photo-1617069489895-76388f95886a?q=80&w=2049&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-position: 100% ;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.elements{
+    font-size: xxx-large;
+    font-family: math;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+#input-box{
+    border: 2px solid white;
+    color: white;
+    width: 30%;
+    font-size: 1.5rem;
+    background-color: #455A64;
+    border-radius: 20px;
+}
+#inputelements{
+    text-align: center;
+}
+::placeholder {
+    color: white;
+}
+.btn-add{
+    font-size: larger;
+    border-radius: 15%;
+    line-height: normal;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.list{
+    color: white;
+    /* text-align: center; */
+    /* display: block; */
+    margin: 3px;
+    /* background-color: whitesmoke; */
+    width: 40%;
+    border-radius: 10px;
+}
+#delete-btn{
+    border-radius: 50%;
+    display: inline;
+    margin: 5px;
+}
+li{
+    display: inline;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+#owner{
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
